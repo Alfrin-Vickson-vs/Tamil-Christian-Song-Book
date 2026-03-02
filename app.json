@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "temp-app",
-    "slug": "temp-app",
+    "name": "Tamil Christian Song Book",
+    "slug": "tamil-christian-song-book",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,13 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "976ccd91-3857-4f3d-b1a3-09dc1b6f997e"
+      }
+    },
+    "owner": "alfrin_vickson"
   }
 }
